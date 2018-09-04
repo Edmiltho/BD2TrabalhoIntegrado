@@ -5,15 +5,9 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 ### 1. COMPONENTES<br>
 
-David Moura: mouradavid8@gmail.com<br>
-Leonardo Arpini: leonardoarpini@gmail.com<br>
-Luciano Ananias: luciano.ananias.42@gmail.com <br>
-Thiago Alves: thiagofelicio@hotmail.com<br>
-<br>
-<b>Grupo de Análise</b><br>
-Integrantes: Andreângelo, Anne, Caicke e Emanuel<br>
-Foi feito um clone desse projeto pois os dois grupos estão desenvolvendo o mesmo projeto, que pode ser acessado no link
-[Casa Inteligente](https://github.com/CasaInteligenteBD1/trab01gv).<br>
+Edmiltho dos A. Santos
+Caio Pupolin Antonio
+Andreangelo
 
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>

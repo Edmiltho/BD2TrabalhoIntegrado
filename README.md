@@ -1,4 +1,4 @@
-# TRABALHO 01:  estacIonA.
+# TRABALHO 01:  Flanelinha Express.
 Trabalho desenvolvido durante a disciplina de BD1
 
 # Sumário

@@ -5,9 +5,9 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 ### 1. COMPONENTES<br>
 
-Edmiltho dos A. Santos
-Caio Pupolin Antonio
-Andreangelo
+Edmiltho dos A. Santos<br>
+Caio Pupolin Antonio<br>
+Andreangelo<br>
 
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>

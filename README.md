@@ -93,7 +93,7 @@ OBS: Os mockup's podem estar desatualizados devido a mudanças que ocorreram dur
 
 ### 5.MODELO CONCEITUAL<br>
        
-![Modelo conceitual - PNG](https://github.com/GrupoDaVaga/trab01/blob/master/Modelo%20Normalizado/Imagens/Conceitual_top.png)
+![Modelo conceitual - PNG](https://github.com/Edmiltho/BD2TrabalhoIntegrado/blob/master/Modelos_%20Conceitual%20-%20L%C3%B3gico%20-%20F%C3%ADsico%20-%20Inserts/modConceitual_4.png)
 
 [Modelo Conceitual - Formato BrModelo](https://github.com/GrupoDaVaga/trab01/blob/master/Modelo%20Normalizado/Conceitual_top.brM3)    
 

@@ -41,7 +41,8 @@ DICA:
 
 Edmiltho dos A. Santos<br>
 Caio Pupolin Antonio<br>
-Andreangelo<br>
+Matheus Barbosa<br>
+José Guilherme Lima<br>
 
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>

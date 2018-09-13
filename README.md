@@ -55,17 +55,56 @@ Andreangelo<br>
 
 > 
 ##### O Sistema proposto ao usuário apresenta as seguintes informações: 
-* Do cliente serão armazenados o nome, e-mail, CPF, Número da CNH, telefone, saldo no aplicativo, quais veículos possui bem como seus cartões de crédito. 
-* Das formas de pagamentos teremos as seguintes opções:
-  1. Cartão de crédito: onde serão armazenados numero de cartão, data de vencimento, nome impresso no cartão, 
-  2. Créditos no aplicativo: neste caso um valor em reais é adicionado a conta do cliente. 
-  3. Paypal: neste caso o cliente é redirecionado para um sistema externo que possui todos os dados do mesmo, não sendo necessário o armazenamento dessas informações aqui.
-* Do veículo deseja-se saber a placa e sua categoria para que possamos localizar uma vaga conveniente de acordo com o porte do mesmo.
-* Dos estacionamentos deseja-se saber o nome do mesmo, o valor da primeira hora e das demais horas e seu endereço além de, claro, quais vagas pertencem a ele.
-* Das vagas deseja-se armazenar o número, sessão e andar da mesma para que torne fácil sua localização, além desses precisamos saber também quais sensores estão sendo utilizados em cada vaga.
-* Dos sensores apenas um nome, uma breve descrição pode ser interessante e o tipo é do que precisamos saber, ex.: nome:Sensor-A1 descrição:lado-esquerdo tipo:câmera.
-Do período estacionado: o sistema registrá via reserva o horario de entrada do veículo, o que será confirmado via sensores nas vagas, e detectará automaticamente a saída do mesmo, calculando automaticamente o valor a ser cobrado.
-O usuário cadastrado no aplicativo pode de qualquer lugar efetuar a reserva de vaga em um estacionamento caso esta já não tenha sido reservado, escolhendo assim o método de pagamento mais apropriado, ao sair da vaga o sistema lhe permite que efetue o pagamento do valor referente ao periodo em que ficou estacionado naquele local.
+O estacIonA é um sistema desenvolvido para atender empresas de estacionamento
+privadas, localizadas em grandes centros urbanos, as quais possuem
+características comuns como funcionários administradores, que poderão gerenciar
+os estacionamentos, registrando novos estacionamentos e vagas para cada um
+deles, e guardas, que permanecerão em cada um dos estacionamentos para
+vigiá-los e resolver problemas que porventura possam ocorrer, e estes poderão
+visualizar as vagas livres e ocupadas do estacionamento em que trabalham.
+O estacIonA permitirá que os clientes (motoristas) escolham um dos
+estacionamentos cadastrados no estacIonA e então visualizem as vagas livres e
+ocupadas desse estacionamento. A partir daí, os clientes poderão escolher uma das
+vagas livres e efetuar uma reserva, tudo isso de maneira remota através de
+aplicativo em seus smartphones.
+Após escolher uma vaga livre, para reservá-la, o motorista deverá dar informações
+do veículo que vai ocupar a vaga, informar o horário de sua entrada na vaga e ter
+créditos suficientes em sua conta no estacIonA, pois para efetuar a reserva serão
+debitados o valor referente a uma hora de uso de uma vaga de um determinado
+estacionamento, garantindo assim sua vaga por uma hora. A reserva faz com que o
+motorista garanta a utilização de uma determinada vaga por uma hora, a contar a
+partir da hora de entrada na vaga que ele informou. Qualquer reserva tem duração
+de uma hora.
+Quando um motorista sair de sua vaga, o sistema verificará sua situação que
+poderá ser uma das duas:
+1) O motorista utilizou a vaga dentro do tempo da reserva (uma hora), então o
+sistema entende que este motorista não possui débitos com o estacionamento e
+então pode ser liberado.
+2) O motorista utilizou a vaga além do tempo da reserva (mais de uma hora), então
+o sistema gerará uma cobrança com o valor que este motorista terá que pagar.
+Após o pagamento desta cobrança, também feita pelo aplicativo, o sistema
+reconhecerá que a saída do motorista do estacionamento está permitida.
+Um motorista poderá financiar seus créditos em sua conta no estacIonA utilizando
+cartão de crédito ou débito ou payPal. Ao efetuar a compra de créditos, poderá ser
+parcelado ou não, sendo três o número máximo de parcelas e não haverá cobrança
+de juros.
+Funcionários administradores poderão cadastrar, editar e excluir vagas e
+estacionamentos e saber quais vagas estão ocupadas ou livres de forma visual. O
+guarda poderá apenas visualizar as vagas livres e ocupadas do estacionamento que
+está vigiando.
+Do motorista, serão armazenados o número da sua CNH e seu CPF. (também
+responsável por armazenar informações de recargas). Existirão três maneiras de um
+motorista acrescentar créditos a sua conta no estacIonA: payPal, cartão de crédito
+ou débito. Para cada uma dessas formas de pagamentos serão armazenados,
+respectivamente, o nome da conta payPal, e o número do cartão para as duas
+últimas.
+Quanto às informações de cada estacionamento, serão armazenadas: quantidade
+de vagas, endereço, valor da hora de utilização de uma vaga e sua localização para
+o GPS (latitude e longitude).
+Sobre a vaga, é importante saber a qual estacionamento ela pertence, o número do
+andar, o seu número identificador, e sua localização para o GPS (latitude e
+longitude).
+É importante que se guarde os históricos de reservas realizadas.
 
 <br>
 

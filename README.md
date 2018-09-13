@@ -82,8 +82,8 @@ Sobre a vaga, é importante saber a qual estacionamento ela pertence, o número 
 
 <br>
 
-[Mockup App](https://github.com/GrupoDaVaga/trab01/blob/david/mockups/ESTACIONA%20APP.pdf)
-[Mockup App 2](https://github.com/Edmiltho/BD2TrabalhoIntegrado/blob/master/Prot%C3%B3tipo%20telas/prototipoTelasEstaciona.pdf)
+[Mockup App](https://github.com/GrupoDaVaga/trab01/blob/david/mockups/ESTACIONA%20APP.pdf)<br>
+[Mockup App 2](https://github.com/Edmiltho/BD2TrabalhoIntegrado/blob/master/Prot%C3%B3tipo%20telas/prototipoTelasEstaciona.pdf)<br>
 [Mockup Web](https://github.com/GrupoDaVaga/trab01/blob/david/mockups/ESTACIONA%20WEB.pdf)  
 
 OBS: Os mockup's podem estar desatualizados devido a mudanças que ocorreram durante o projeto após a licensa do mesmo ter expirado, e como podem ver nesta [imagem](https://github.com/GrupoDaVaga/trab01/blob/master/mockups/balsamiq.png), a licença gratuita não permite edições nos mockups após 30 dias de uso

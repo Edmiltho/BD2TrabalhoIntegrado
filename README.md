@@ -102,7 +102,6 @@ OBS: Os mockup's podem estar desatualizados devido a mudanças que ocorreram dur
    - Relatório sobre o veículo de determinada reserva;<br>
    - Histórico de veículos estacionados em determinada vaga.
     
->## Marco de Entrega 01 em: (02/04/2018)<br>
 
 ### 5.MODELO CONCEITUAL<br>
        

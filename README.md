@@ -107,9 +107,9 @@ OBS: Os mockup's podem estar desatualizados devido a mudanças que ocorreram dur
 
 ### 5.MODELO CONCEITUAL<br>
        
-![Modelo conceitual - PNG](https://github.com/Edmiltho/BD2TrabalhoIntegrado/blob/master/Modelos_%20Conceitual%20-%20L%C3%B3gico%20-%20F%C3%ADsico%20-%20Inserts/modConceitual_4.png)
+![Modelo conceitual - PNG](https://github.com/Edmiltho/BD2TrabalhoIntegrado/blob/master/Modelos_%20Conceitual%20-%20L%C3%B3gico%20-%20F%C3%ADsico%20-%20Inserts/alteracao%20-03-10/modConceitual_4.png)
 
-[Modelo Conceitual - Formato BrModelo](https://github.com/GrupoDaVaga/trab01/blob/master/Modelo%20Normalizado/Conceitual_top.brM3)    
+[Modelo Conceitual - Formato BrModelo](https://github.com/Edmiltho/BD2TrabalhoIntegrado/blob/master/Modelos_%20Conceitual%20-%20L%C3%B3gico%20-%20F%C3%ADsico%20-%20Inserts/alteracao%20-03-10/modConceitual_4.brM3)    
 
     
 #### 5.1 Validação do Modelo Conceitual
@@ -164,7 +164,7 @@ OBS: Os mockup's podem estar desatualizados devido a mudanças que ocorreram dur
 
 
 ### 6	MODELO LÓGICO<br>
-[Modelo Lógico - BrModelo](https://github.com/GrupoDaVaga/trab01/blob/master/Modelo%20Normalizado/Logico_top.brM3)
+[Modelo Lógico - BrModelo](https://github.com/Edmiltho/BD2TrabalhoIntegrado/blob/master/Modelos_%20Conceitual%20-%20L%C3%B3gico%20-%20F%C3%ADsico%20-%20Inserts/alteracao%20-03-10/L%C3%B3gico_1.png)
 
 ![Modelo Lógico - PNG](https://github.com/Edmiltho/BD2TrabalhoIntegrado/blob/master/Modelos_%20Conceitual%20-%20L%C3%B3gico%20-%20F%C3%ADsico%20-%20Inserts/modLogico_4.png)
 

@@ -166,7 +166,7 @@ OBS: Os mockup's podem estar desatualizados devido a mudanças que ocorreram dur
 ### 6	MODELO LÓGICO<br>
 [Modelo Lógico - BrModelo](https://github.com/Edmiltho/BD2TrabalhoIntegrado/blob/master/Modelos_%20Conceitual%20-%20L%C3%B3gico%20-%20F%C3%ADsico%20-%20Inserts/alteracao%20-03-10/L%C3%B3gico_1.png)
 
-![Modelo Lógico - PNG](https://github.com/Edmiltho/BD2TrabalhoIntegrado/blob/master/Modelos_%20Conceitual%20-%20L%C3%B3gico%20-%20F%C3%ADsico%20-%20Inserts/modLogico_4.png)
+![Modelo Lógico - PNG](https://github.com/Edmiltho/BD2TrabalhoIntegrado/blob/master/Modelos_%20Conceitual%20-%20L%C3%B3gico%20-%20F%C3%ADsico%20-%20Inserts/L%C3%B3gico_1.png)
 
 ### 7	MODELO FÍSICO<br>
 [Modelo Físico - SQL](https://github.com/GrupoDaVaga/trab01/blob/master/Modelo%20Normalizado/Fisico_top.sql)

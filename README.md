@@ -122,39 +122,21 @@ OBS: Os mockup's podem estar desatualizados devido a mudanças que ocorreram dur
 #### 5.3 DESCRIÇÃO DOS DADOS 
     vaga : Tabela que armazena informações referente as vagas.
     id_vaga: Campo que contem o ID de armazenamento da vaga.
-    secao_vaga : Campo que contem codigo de seção onde a vaga está localizada.
-    andar_vaga : Campo com o numero do andar referente a vaga.
-    Pagamento: Tabela que armazena os dados referentes aos pagamentos.
-    metodo: Campo onde armazena a forma de pagamento escolhida.
-    cliente: Tabela onde armazena dados referentes ao cliente.
-    nome: Campo onde está armazenado o nome referente ao cliente.
+    Pagamento_Estacionamento: Tabela que armazena os dados referentes aos pagamentos.
+    Cartao: Tabela que armazena dados do cartão de crédito do cliente.
+    Motorista: Tabela onde armazena dados referentes ao motorista.
     cpf: Campo onde fica armazenado o Cadastro de Pessoa Fisica de cada cliente.
-    email: Campo onde é armazenado o email de cada ccliente.
+    email: Campo onde é armazenado o email de cada cliente.
     tel: Campo onde fica armazenado o telefone do cliente.
     cnh:Campo com numero do CNH do cliente.
-    saldo: Campo referente ao saldo do cliente
-    Sensor: Tabela onde se armazena dados referentes a utilização dos sensores.
-    idSensor: Codigo de cadastro do sensor.
-    descrição: Campo que armazena a situação do sensor, sendo ela desligada ou ligada.
-    tipo: Campo onde fica armazenada as caracteriscas do sensor.
     veiculo: Tabela onde fica armazenado dados referentes aos veiculos dos condutores.
-    placa: Campo onde armazena o numero da placa de cada veiculo.
-    categoria: Campo onde armazena a categoria do veiculo com base em suas caracteristicas.
+    placa: Tabela onde armazena o numero da placa de cada veiculo.
     estacionamento: Tabela onde fica armazenado dados referentes a reserva feita pelo usuario.
-    nome: Campo onde se armazena nome referente a reserva.
-    primeira_hora: Campo onde se armazena a hora que o veiculo entrou em sua vaga.
     val_hora: Campo onde fica armazenado o valor/hora.
-    cartão: Tabela onde fica armazenados dados referentes ao cartão do cliente.
     validade:Campo com dados referente a data de validade do cartão do cliente
     nome_impressão: Campo com dados referente ao nome do cliente no cartão.
     numero: Campo que armazena o numero do cartão do cliente.
-    endereco: Tabela com dados do endereço em relação a vaga de estacionamento, que decidimos não adicionar para simplificar o projeto.
-    metodo_pagamento: Tabela com dados a respeito do tipo de pagamento.
-    metodo : Campo onde fica armazenado o metodo escolhido
-    categoria_veiculo: Tabela onde fica armazenada dados referentes aos veiculos.
-    categoria: Tipo do veiculo, carro, moto entre outros
-    Descrição: Campo onde fica armazenado o tipo do veiculo
-    Status_reserva: Tabela onde fica armazenado o status da reserva
+    endereco: Tabela com dados do endereço em relação ao estacionamento.
 
 
 ### 6	MODELO LÓGICO<br>

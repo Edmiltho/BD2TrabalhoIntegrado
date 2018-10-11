@@ -101,9 +101,9 @@ OBS: Os mockup's podem estar desatualizados devido a mudanças que ocorreram dur
 
 ### 5.MODELO CONCEITUAL<br>
        
-![Modelo conceitual - PNG](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/Modelos_%20Conceitual%20-%20L%C3%B3gico%20-%20F%C3%ADsico%20-%20Inserts/Altera%C3%A7%C3%A3o%20%5B09-10%5D/modConceitual_4%20(1).png)
+![Modelo conceitual - PNG](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/Modelos_%20Conceitual%20-%20L%C3%B3gico%20-%20F%C3%ADsico%20-%20Inserts/Alteracao%2011-10/modConceitual_4V2.png)
 
-[Modelo Conceitual - Formato BrModelo](https://github.com/Edmiltho/BD2TrabalhoIntegrado/blob/master/Modelos_%20Conceitual%20-%20L%C3%B3gico%20-%20F%C3%ADsico%20-%20Inserts/alteracao%20-03-10/modConceitual_4.brM3)    
+[Modelo Conceitual - Formato BrModelo](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/Modelos_%20Conceitual%20-%20L%C3%B3gico%20-%20F%C3%ADsico%20-%20Inserts/Alteracao%2011-10/modConceitual_4V2.brM3)    
 
     
 #### 5.1 Validação do Modelo Conceitual
@@ -140,9 +140,9 @@ OBS: Os mockup's podem estar desatualizados devido a mudanças que ocorreram dur
 
 
 ### 6	MODELO LÓGICO<br>
-[Modelo Lógico - BrModelo](https://github.com/Edmiltho/BD2TrabalhoIntegrado/blob/master/Modelos_%20Conceitual%20-%20L%C3%B3gico%20-%20F%C3%ADsico%20-%20Inserts/alteracao%20-03-10/L%C3%B3gico_1.png)
+[Modelo Lógico - BrModelo](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/Modelos_%20Conceitual%20-%20L%C3%B3gico%20-%20F%C3%ADsico%20-%20Inserts/Alteracao%2011-10/modConceitual_4V2.brM3)
 
-![Modelo Lógico - PNG](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/Modelos_%20Conceitual%20-%20L%C3%B3gico%20-%20F%C3%ADsico%20-%20Inserts/Altera%C3%A7%C3%A3o%20%5B09-10%5D/L%C3%B3gico_1.png)
+![Modelo Lógico - PNG](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/Modelos_%20Conceitual%20-%20L%C3%B3gico%20-%20F%C3%ADsico%20-%20Inserts/Alteracao%2011-10/L%C3%B3gico_1V2.png)
 
 ### 7	MODELO FÍSICO<br>
 [Modelo Físico - SQL](https://github.com/GrupoDaVaga/trab01/blob/master/Modelo%20Normalizado/Fisico_top.sql)

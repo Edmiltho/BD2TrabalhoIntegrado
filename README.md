@@ -145,7 +145,7 @@ OBS: Os mockup's podem estar desatualizados devido a mudanças que ocorreram dur
 ![Modelo Lógico - PNG](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/Modelos_%20Conceitual%20-%20L%C3%B3gico%20-%20F%C3%ADsico%20-%20Inserts/Alteracao%2011-10/L%C3%B3gico_1V2.png)
 
 ### 7	MODELO FÍSICO<br>
-[Modelo Físico - SQL](https://github.com/GrupoDaVaga/trab01/blob/master/Modelo%20Normalizado/Fisico_top.sql)
+[Modelo Físico - SQL](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/Modelos_%20Conceitual%20-%20L%C3%B3gico%20-%20F%C3%ADsico%20-%20Inserts/Alteracao%2011-10/ModeloFisico.txt)
 
        
 ### OBSERVAÇÕES IMPORTANTES

@@ -156,7 +156,7 @@ OBS: Os mockup's podem estar desatualizados devido a mudanças que ocorreram dur
         c) fontes de estudo para desenvolvimento do projeto
         
 Utilizamos o PDI para criar jobs para popular as tabelas do banco de dados. 
-Populamos as tabelas com as seguintes quantidades:
+Populamos as tabelas com as seguintes quantidades:<br>
 Bairro - 150
 Cargo - 3
 Cartao - 50.000

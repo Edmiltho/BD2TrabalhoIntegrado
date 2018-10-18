@@ -155,6 +155,30 @@ OBS: Os mockup's podem estar desatualizados devido a mudanças que ocorreram dur
         b) obtenção de códigos reutilizados
         c) fontes de estudo para desenvolvimento do projeto
         
+Utilizamos o PDI para criar jobs para popular as tabelas do banco de dados. 
+Populamos as tabelas com as seguintes quantidades:
+Bairro - 150
+Cargo - 3
+Cartao - 50.000
+Cidade - 100
+Contato - 150.000
+Endereco - 1.000
+Estacionamento - 100.000
+Estado - 10
+Marca - 50
+Modelo - 200
+Motorista - 20.000
+Pagamento Estacionamento - 500.000
+Pessoa - 100.000
+Pessoa Fisica - 99.000
+Pessoa Juridica - 1.000
+Tipo_contato - 3
+Trabalha - 2.000
+Vaga - 500.000
+Veiculo - 500.000
+Reserva - 1.500.000
+Funcionario - 2.000
+        
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS (ARQUIVO ÚNICO COM):
         a) inclusão das instruções para criação das tabelas e estruturas de amazenamento do BD
         b) inclusão das instruções de inserção dos dados nas referidas tabelas

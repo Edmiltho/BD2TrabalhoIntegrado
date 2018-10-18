@@ -1,0 +1,21 @@
+Bairro - 150
+Cargo - 3
+Cartao - 50.000
+Cidade - 100
+Contato - 150.000
+Endereco - 1.000
+Estacionamento - 100.000
+Estado - 10
+Marca - 50
+Modelo - 200
+Motorista - 20.000
+Pagamento Estacionamento - 500.000
+Pessoa - 100.000
+Pessoa Fisica - 99.000
+Pessoa Juridica - 1.000
+Tipo_contato - 3
+Trabalha - 2.000
+Vaga - 500.000
+Veiculo - 500.000
+Reserva - 1.500.000
+Funcionario - 2.000

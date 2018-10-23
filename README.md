@@ -155,30 +155,6 @@ OBS: Os mockup's podem estar desatualizados devido a mudanças que ocorreram dur
         b) obtenção de códigos reutilizados
         c) fontes de estudo para desenvolvimento do projeto
         
-Utilizamos o PDI para criar jobs para popular as tabelas do banco de dados. 
-Populamos as tabelas com as seguintes quantidades:<br>
-Bairro - 150<br>
-Cargo - 3<br>
-Cartao - 50.000<br>
-Cidade - 100<br>
-Contato - 150.000<br>
-Endereco - 1.000<br>
-Estacionamento - 100.000<br>
-Estado - 10<br>
-Marca - 50<br>
-Modelo - 200<br>
-Motorista - 20.000<br>
-Pagamento Estacionamento - 500.000<br>
-Pessoa - 100.000<br>
-Pessoa Fisica - 99.000<br>
-Pessoa Juridica - 1.000<br>
-Tipo_contato - 3<br>
-Trabalha - 2.000<br>
-Vaga - 500.000<br>
-Veiculo - 500.000<br>
-Reserva - 1.500.000<br>
-Funcionario - 2.000
-        
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS (ARQUIVO ÚNICO COM):
         a) inclusão das instruções para criação das tabelas e estruturas de amazenamento do BD
         b) inclusão das instruções de inserção dos dados nas referidas tabelas
@@ -252,7 +228,49 @@ OBS: Incluir para os tópicos 9.2 e 9.3 as instruções SQL + imagens (print da 
         b) tabelas diretamente relacionadas a tabela principal 100 mil registros
         c) tabelas auxiliares de relacao multivalorada mínimo de 10 registros
         d) registrar o tempo 
+        
+Nosso principal fluxo é composto pelas tabelas reserva, estacionamento, vaga, veiculo, pagamento_estacionamento. Fizemos um count para demonstrar a quantidade de linhas em cada tabela
 
+- Tabela estacionamento<br>
+![estacionamento](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Popular%209.6/quantidadeEstacionamento.PNG)<br>
+- Tabela vaga<br>
+![vaga](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Popular%209.6/quantidadeVaga.PNG)<br>
+- Tabela pagamento_estacionamento
+![pagamento_estacionamento](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Popular%209.6/quantidadePagamentoEstacionamento.PNG)<br>
+- Tabela veiculo<br>
+![veiculo](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Popular%209.6/quantidadeVeiculo.PNG)<br>
+- Tabela reserva<br>
+![reserva](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Popular%209.6/quantidadeReserva.PNG)<br>
+
+    Utilizamos o PDI para criar jobs para popular as tabelas do banco de dados. 
+    Populamos as tabelas com as seguintes quantidades:<br>
+    Bairro - 150<br>
+    Cargo - 3<br>
+    Cartao - 50.000<br>
+    Cidade - 100<br>
+    Contato - 150.000<br>
+    Endereco - 1.000<br>
+    Estacionamento - 100.000<br>
+    Estado - 10<br>
+    Marca - 50<br>
+    Modelo - 200<br>
+    Motorista - 20.000<br>
+    Pagamento Estacionamento - 500.000<br>
+    Pessoa - 100.000<br>
+    Pessoa Fisica - 99.000<br>
+    Pessoa Juridica - 1.000<br>
+    Tipo_contato - 3<br>
+    Trabalha - 2.000<br>
+    Vaga - 500.000<br>
+    Veiculo - 500.000<br>
+    Reserva - 1.500.000<br>
+    Funcionario - 2.000
+    
+Popular todas essas tabelas demorou cerca de 5 minutos conforme as imagens abaixo
+Inicio<br>
+![Inicio](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Popular%209.6/StartTimePopula.PNG)<br>
+Fim<br>
+![fim](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Popular%209.6/EndTimePopula.PNG)<br>
 ## Data de Entrega: (31/10/2018)
 
 #### 9.7	Backup do Banco de Dados<br>

@@ -197,8 +197,26 @@ Funcionario - 2.000
 OBS: Incluir para os tópicos 9.2 e 9.3 as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 
 #### 9.2	SELECT DAS TABELAS COM PRIMEIROS 10 REGISTROS INSERIDOS <br> 
-    
-<br>
+   `Select * from estacionamento limit 10`
+   <br>
+   ![Select Estacionamento](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Select%209.2/estacionamento.PNG)
+   <br>
+   `Select * from vaga limit 10`
+   <br>
+   ![Select vaga](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Select%209.2/vaga.PNG)
+   <br>
+   `Select * from veiculo limit 10`
+   <br>
+   ![Select veiculo](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Select%209.2/veiculo.PNG)
+   <br>
+   `Select * from pagamento_estacionamento limit 10`
+   <br>
+   ![Select pagamento_estacionamento](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Select%209.2/pagamento_estacionamento.PNG)
+   <br>
+   `Select * from reserva limit 10`
+   <br>
+   ![Select reserva](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Select%209.2/reserva.PNG)
+   <br>
 
 #### 9.3	SELECT DAS VISÕES COM PRIMEIROS 10 REGISTROS DA VIEW <br>
         a) Descrição da view sobre que grupos de usuários (operacional/estratégico) <br>

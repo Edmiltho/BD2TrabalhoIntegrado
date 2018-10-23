@@ -155,7 +155,8 @@ OBS: Os mockup's podem estar desatualizados devido a mudanças que ocorreram dur
         b) obtenção de códigos reutilizados
         c) fontes de estudo para desenvolvimento do projeto
         
-    Utilizamos o PDI para gerar aleatóriamente os dados para o banco e através de alguns scripts em javascript ( dentro do PDI ) conseguimos gerar todos os dados e todas as relações.
+Utilizamos o PDI para gerar aleatóriamente os dados para o banco e através de alguns scripts em javascript ( dentro do PDI ) conseguimos gerar todos os dados e todas as relações, como o código abaixo.<br>
+![Codigo](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Dados%208.1/codigoReserva.PNG)
     
     
         

@@ -440,10 +440,10 @@
     <server>localhost</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
-    <database>postgres</database>
+    <database>flanela</database>
     <port>5432</port>
     <username>postgres</username>
-    <password>Encrypted 2be98afc86aa7f2e4bb16bd64d980aac9</password>
+    <password>Encrypted 2be98afc86aa7f2e4cb79ce63db80bddb</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -557,9 +557,9 @@
 java;
 var nome=Packages.org.pentaho.di.core.util.StringUtil.generateRandomString(5, "", "-nome", false); 
 var lo = (Math.random() * (100 - 1.0) + 1.0).toFixed(2);
+var la= (Math.random() * (100 - 1.0) + 1.0).toFixed(2);
 var longitude = ""+lo;
 var latidude = ""+la;
-var la= (Math.random() * (100 - 1.0) + 1.0).toFixed(2);
 var valorhora = Math.random() * (30 - 1.0) + 1.0;
 var fk_endereco_id = Math.round(Math.random() * (1000 - 1) + 1);
 var fk_pessoa_juridica_id = Math.round(Math.random() * (1000 - 1) + 1);
@@ -642,7 +642,7 @@ var fk_pessoa_juridica_id = Math.round(Math.random() * (1000 - 1) + 1);
     </remotesteps>
     <GUI>
       <xloc>416</xloc>
-      <yloc>192</yloc>
+      <yloc>208</yloc>
       <draw>Y</draw>
     </GUI>
   </step>

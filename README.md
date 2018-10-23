@@ -175,7 +175,7 @@ OBS: Incluir para os tópicos 9.2 e 9.3 as instruções SQL + imagens (print da 
 #### 9.2	SELECT DAS TABELAS COM PRIMEIROS 10 REGISTROS INSERIDOS <br> 
    `Select * from estacionamento limit 10`
    <br>
-   ![Select Estacionamento](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Select%209.2/estacionamento.PNG)
+   ![Select Estacionamento](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Select%209.2/estacionamento2.PNG)
    <br>
    `Select * from vaga limit 10`
    <br>
@@ -235,7 +235,7 @@ Nosso principal fluxo é composto pelas tabelas reserva, estacionamento, vaga, v
 ![estacionamento](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Popular%209.6/quantidadeEstacionamento.PNG)<br>
 - Tabela vaga<br>
 ![vaga](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Popular%209.6/quantidadeVaga.PNG)<br>
-- Tabela pagamento_estacionamento
+- Tabela pagamento_estacionamento<br>
 ![pagamento_estacionamento](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Popular%209.6/quantidadePagamentoEstacionamento.PNG)<br>
 - Tabela veiculo<br>
 ![veiculo](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Popular%209.6/quantidadeVeiculo.PNG)<br>
@@ -266,7 +266,7 @@ Nosso principal fluxo é composto pelas tabelas reserva, estacionamento, vaga, v
     Reserva - 1.500.000<br>
     Funcionario - 2.000
     
-Popular todas essas tabelas demorou cerca de 5 minutos conforme as imagens abaixo
+Popular todas essas tabelas demorou cerca de 5 minutos conforme as imagens abaixo<br>
 Inicio<br>
 ![Inicio](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Popular%209.6/StartTimePopula.PNG)<br>
 Fim<br>

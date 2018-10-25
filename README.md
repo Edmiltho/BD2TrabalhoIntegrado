@@ -207,8 +207,23 @@ OBS: Incluir para os tópicos 9.2 e 9.3 as instruções SQL + imagens (print da 
         c) as funcionalidades informadas no minimundo ou nos mockups(protótipos), que representarem 
         views do sistema (relatórios, informações disponíveis para os usuários, etc) devem estar 
         presentes aqui. 
-<br>
 
+**View Pessoa Juridica**<br>
+Essa view tem o objetivo de juntar as informações de pessoa com pessoa juridica<br>
+![View Pessoa Juridica](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/view_pessoa_juridica.PNG)<br>
+
+**View Pessoa Fisica**<br>
+Essa view tem o objetivo de juntar as informações de pessoa com pessoa física<br>
+![View Pessoa Fisica](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/view_pessoa_fisica.PNG)<br>
+
+
+**View Estacionamento**<br>
+Essa view tem o objetivo de mostrar todas as informações relacionadas ao estacionamento que são importantes para o cliente<br>
+![View estacionamento](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/view_estacionamento.PNG)<br>
+
+**View Pagamento**<br>
+Essa view tem o objetivo de mostrar as informações relacionadas as reservas e pagamentos de uma vaga<br>
+![View Pagamento](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/view_pagamento.PNG)<br>
 #### 9.4	LISTA DE CODIGOS DAS FUNÇÕES, ASSERÇOES E TRIGGERS<br>
         Detalhamento sobre funcionalidade de cada código.
         a) Objetivo

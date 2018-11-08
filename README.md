@@ -303,6 +303,28 @@ Fim<br>
         f) Tempo para restauração (script sql)
 <br>
 
+Realizando um backup tipo **SQL**, temos o tempo de criação de 15.2 segundos e de restauração de 23.6 segundos ficando com o tamanho de 59.2 MB, conforme as imagens abaixo<br>
+
+Criação do Backup<br>
+![backup](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/9.7%20backup/backupsql.PNG)<br>
+
+Restauração<br>
+![restauração](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/9.7%20backup/restoreSQL.PNG)<br>
+
+Tamanho<br>
+![tamanho](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/9.7%20backup/tamanhoBackupSQL.PNG)<br>
+
+<br>Realizando um backup tipo **TAR**, temos o tempo de criação do backup de 4 segundos e de restauração de 23.1 segundos ficando com o tamanho de 146 MB, conforme as imagens abaixo<br>
+
+Criação do Backup<br>
+![backup](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/9.7%20backup/backupTARimg.PNG)<br>
+
+Restauração<br>
+![restauração](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/9.7%20backup/restoreTAR.PNG)<br>
+
+Tamanho<br>
+![tamanho](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/9.7%20backup/tamanhoBackupTAR.PNG)<br>
+
 
 #### 9.8	APLICAÇAO DE ÍNDICES E TESTES DE PERFORMANCE<br>
     a) Lista de índices, tipos de índices com explicação de porque foram implementados nas consultas 

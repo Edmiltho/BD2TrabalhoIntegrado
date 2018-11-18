@@ -3,7 +3,7 @@ create or replace view pessoa_juridica_info as
 select jur.id, jur.cnpj, pes.nome from pessoa_juridica as jur
 inner join pessoa as pes on jur.fk_pessoa_id = pes.id;
 
--- Pessoa Física Info
+-- Pessoa FÃ­sica Info
 create or replace view pessoa_fisica_info as 
 select fis.id, fis.cpf, pes.nome from pessoa_fisica as fis
 inner join pessoa as pes on fis.fk_pessoa_id = pes.id;
@@ -22,4 +22,6 @@ create or replace view pagamento_info as
 select pag.data, pag.valor, res.horaReserva, res.dataReserva, res.horaSaida, res.saidaPrevista, veic.placa, mot.cnh from
 pagamento_estacionamento as pag inner join reserva as res on res.fk_pagamento_estacionamento_id = pag.id
 inner join veiculo as veic on res.fk_veiculo_id = veic.id
-inner join motorista as mot on veic.fk_motorista_id = mot.id;
+inner join motorista as mot on veic.fk_motorista_id = mot.id
+where pag.data > '1980-01-01' and
+pag.data < '2000-01-01';

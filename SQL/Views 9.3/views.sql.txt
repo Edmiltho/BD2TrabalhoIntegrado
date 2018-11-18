@@ -18,6 +18,17 @@ inner join estado as est on cid.fk_estado_id = est.id
 inner join pessoa_juridica_info as pes on e.fk_pessoa_juridica_id = pes.id
 where pes.cnpj = 'pzpnd-cnpj';
 
+--Estacionamento Info Valor
+create or replace view estacionamento_v_info as
+select e.id, e.nome, e.latitude, e.longitude, e.valorhora, en.rua, b.bairro, cid.cidade, pes.cnpj, pes.nome as nome_pes from estacionamento as e
+inner join endereco as en on e.id = en.id
+inner join bairro as b on en.fk_bairro_id = b.id
+inner join cidade as cid on b.fk_cidade_id = cid.id
+inner join estado as est on cid.fk_estado_id = est.id
+inner join pessoa_juridica_info as pes on e.fk_pessoa_juridica_id = pes.id
+where pes.cnpj = 'pzpnd-cnpj' and
+e.valorhora > 20;
+
 --Pagamento Info
 create or replace view pagamento_info as 
 select pag.data, pag.valor, res.horaReserva, res.dataReserva, res.horaSaida, res.saidaPrevista, veic.placa, mot.cnh from

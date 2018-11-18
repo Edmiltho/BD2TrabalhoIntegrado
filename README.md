@@ -372,6 +372,8 @@ Estacionamento_v_info | BTree e BTree | Pessoa_juridica(cnpj) e estacionamento(v
 Estacionamento_v_info | BTree | estacionamento(valorhora) | +15% | +7% | 0% | 0%
 Estacionamento_v_info | BTree | Pessoa_juridica(cnpj) | +5% | -13% | -53% | -9%
 
+
+<br> Como podemos notar, dois indices fizeram boas melhoras, Pagamento_estacionamento(data) na view Pagamento_info e  Pessoa_juridica(cnpj) na view Estacionamento_v_info, outras, como o indice em valorhora junto com o indice de cnpj e o indice, em hash, Pessoa_juridica(cnpj) na view estacionamento_info, pioraram o desempenho. Então podemos concluir que na view pagamento_info, vale a pena colocar indice na data, na view estacionamento_info, não vale a pena colocar indice hash para buscar cnpj e na view Estacionamento_v_info, vale a pena colocar indice apenas em na busca de cnpj<br> 
 ## Data de Entrega: (22/11/2018)
 
 <br>   

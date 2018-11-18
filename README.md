@@ -336,6 +336,29 @@ Tamanho<br>
     obtendo-se a media dos outros valores como resultado médio final.
 <br>
 
+Analise de desempenho das views **sem indices**<br>
+
+View | Planning time | Execution Time | Cost mim | Cost Max
+---- | :-----------: | :------------: | :------: | :------:
+Pagamento_info | 0.358 ms | 7434.077 ms | 31352.01 | 101551.15
+Estacionamento_info | 0.947 ms | 5.157 ms | 1.35 | 104.13
+
+<br> Aplicando os indices nas mesmas views e analisando os dados obtemos <br>
+
+View | Planning time | Execution Time | Cost mim | Cost Max | Coluna do indice | Tipo do indice 
+---- | :-----------: | :------------: | :------: | :------: | :--------------: | :------------:
+Pagamento_info | 0.362 ms | 3544.804 ms | 28516.09 | 98716.05 | Pagamento_estacionamento(data) | BTree
+Estacionamento_info | 0.740 ms | 5.454 ms | 1.62 | 104.29 | Pessoa_juridica(cnpj) | Btree
+Estacionamento_info | 0.989 ms | 5.742 ms | 1.35 | 104.02 | Pessoa_juridica(cnpj) | Hash
+
+<br> Comparando os valores das views com e sem indice <br>
+
+View | Tipo do indice | Coluna do indice | Planning time | Execution Time | Cost mim | Cost Max
+---- | :------------: | :--------------: | :-----------: | :------------: | :------: | :-------:
+Pagamento_info | BTree | Pagamento_estacionamento(data) | +1.1% | -53% | -9% | -3% 
+Estacionamento_info | BTree | Pessoa_juridica(cnpj) | -21% | +5% | +20% | +0.1%
+Estacionamento_info | Hash | Pessoa_juridica(cnpj) | +4% | +11% | 0% | -0.1%
+
 ## Data de Entrega: (22/11/2018)
 
 <br>   

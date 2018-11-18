@@ -218,12 +218,12 @@ Essa view tem o objetivo de juntar as informações de pessoa com pessoa física
 
 
 **View Estacionamento**<br>
-Essa view tem o objetivo de mostrar todas as informações relacionadas ao estacionamento que são importantes para o cliente<br>
-![View estacionamento](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/view_estacionamento.PNG)<br>
+Essa view tem o objetivo de procurar um cliente pelo cnpj e mostrar todas as informações relacionadas ao estacionamento que são importantes<br>
+![View estacionamento](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/view_estacionamento.png)<br>
 
 **View Pagamento**<br>
-Essa view tem o objetivo de mostrar as informações relacionadas as reservas e pagamentos de uma vaga<br>
-![View Pagamento](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/view_pagamento.PNG)<br>
+Essa view tem o objetivo de mostrar as informações relacionadas as reservas e pagamentos de uma vaga entre duas datas<br>
+![View Pagamento](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/view_pagamento.png)<br>
 #### 9.4	LISTA DE CODIGOS DAS FUNÇÕES, ASSERÇOES E TRIGGERS<br>
         Detalhamento sobre funcionalidade de cada código.
         a) Objetivo

@@ -1,0 +1,21 @@
+--view pagamento_info
+create index idx_data on pagamento_estacionamento(data)
+
+--view estacionamento_info
+create index idx_cnpj on pessoa_juridica(cnpj)
+--ou
+create index idx_cnpj on pessoa_juridica using hash(cnpj)
+
+--view estacionamento_v_info
+create index idx_cnpj on pessoa_juridica(cnpj)
+create index idx_valorhora on estacionamento(valorhora)
+
+--ou
+
+--view estacionamento_v_info
+create index idx_valorhora on estacionamento(valorhora)
+
+--ou
+
+--view estacionamento_v_info
+create index idx_cnpj on pessoa_juridica(cnpj)

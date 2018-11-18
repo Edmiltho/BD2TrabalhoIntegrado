@@ -221,6 +221,12 @@ Essa view tem o objetivo de juntar as informações de pessoa com pessoa física
 Essa view tem o objetivo de procurar um cliente pelo cnpj e mostrar todas as informações relacionadas ao estacionamento que são importantes<br>
 ![View estacionamento](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/view_estacionamento.png)<br>
 
+
+**View Estacionamento Valor**<br>
+Essa view tem o objetivo de procurar um cliente pelo cnpj e mostrar todas as informações relacionadas ao estacionamento que possuem um valor hora maior do que e que são importantes para o cliente<br>
+![View estacionamento_valor](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/view_estacionamento_v.png)<br>
+
+
 **View Pagamento**<br>
 Essa view tem o objetivo de mostrar as informações relacionadas as reservas e pagamentos de uma vaga entre duas datas<br>
 ![View Pagamento](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/view_pagamento.png)<br>
@@ -342,6 +348,7 @@ View | Planning time | Execution Time | Cost mim | Cost Max
 ---- | :-----------: | :------------: | :------: | :------:
 Pagamento_info | 0.358 ms | 7434.077 ms | 31352.01 | 101551.15
 Estacionamento_info | 0.947 ms | 5.157 ms | 1.35 | 104.13
+Estacionamento_v_info | 0.762 ms | 2.109 ms | 20.86 | 124.59
 
 <br> Aplicando os indices nas mesmas views e analisando os dados obtemos <br>
 
@@ -350,6 +357,9 @@ View | Planning time | Execution Time | Cost mim | Cost Max | Coluna do indice |
 Pagamento_info | 0.362 ms | 3544.804 ms | 28516.09 | 98716.05 | Pagamento_estacionamento(data) | BTree
 Estacionamento_info | 0.740 ms | 5.454 ms | 1.62 | 104.29 | Pessoa_juridica(cnpj) | Btree
 Estacionamento_info | 0.989 ms | 5.742 ms | 1.35 | 104.02 | Pessoa_juridica(cnpj) | Hash
+Estacionamento_v_info | 0.808 ms | 1.885 ms | 9.65 | 113.38 | Pessoa_juridica(cnpj) e estacionamento(valorhora) | BTree (os dois)
+Estacionamento_v_info | 0.883 ms | 2.263 ms | 20.86 | 124.59 | estacionamento(valorhora) | BTree
+Estacionamento_v_info | 0.805 ms | 1.816 ms | 9.65 | 113.38 | Pessoa_juridica(cnpj) | BTree
 
 <br> Comparando os valores das views com e sem indice <br>
 
@@ -358,6 +368,9 @@ View | Tipo do indice | Coluna do indice | Planning time | Execution Time | Cost
 Pagamento_info | BTree | Pagamento_estacionamento(data) | +1.1% | -53% | -9% | -3% 
 Estacionamento_info | BTree | Pessoa_juridica(cnpj) | -21% | +5% | +20% | +0.1%
 Estacionamento_info | Hash | Pessoa_juridica(cnpj) | +4% | +11% | 0% | -0.1%
+Estacionamento_v_info | BTree e BTree | Pessoa_juridica(cnpj) e estacionamento(valorhora) | +6% | -10% | -53% | -9%
+Estacionamento_v_info | BTree | estacionamento(valorhora) | +15% | +7% | 0% | 0%
+Estacionamento_v_info | BTree | Pessoa_juridica(cnpj) | +5% | -13% | -53% | -9%
 
 ## Data de Entrega: (22/11/2018)
 

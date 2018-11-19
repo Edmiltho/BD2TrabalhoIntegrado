@@ -238,8 +238,12 @@ Essa view tem o objetivo de mostrar as informações relacionadas as reservas e 
         d) resultados em forma de tabela/imagem
         
 **Function ID_Funcionario**<br>
-![Function IDFuncionario](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Fun%C3%A7%C3%B5es%209.4/bdfunc1.PNG)<br>
 Tem como objetivo apresentar todas as informações de um funcionário através de sua ID do banco.<br>
+![Function IDFuncionario](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Fun%C3%A7%C3%B5es%209.4/bdfunc1.PNG)<br>
+
+**Function procuraCarro**<br>
+Tem como objetivo apresentar as informações de todos os veículos pertencidos a um determinado motorista, buscando pelo nome completo do motorista.<br>
+![Function procuraCarro](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Fun%C3%A7%C3%B5es%209.4/bdfunc2.PNG)<br>
 <br>
 
 ## Data de Entrega: (27/09/2018)

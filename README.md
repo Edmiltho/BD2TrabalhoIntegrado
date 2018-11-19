@@ -236,6 +236,10 @@ Essa view tem o objetivo de mostrar as informações relacionadas as reservas e 
         b) Código do objeto (função/trigger/asserção)
         c) exemplo de dados para aplicação
         d) resultados em forma de tabela/imagem
+        
+**Function ID_Funcionario**<br>
+![Function IDFuncionario](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Fun%C3%A7%C3%B5es%209.4/bdfunc1.PNG)<br>
+Tem como objetivo apresentar todas as informações de um funcionário através de sua ID do banco.<br>
 <br>
 
 ## Data de Entrega: (27/09/2018)

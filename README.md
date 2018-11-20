@@ -257,7 +257,7 @@ Tem como objetivo apresentar as informações de todos os veículos pertencidos 
         d) Plano com frequencia de análises visando otimização de performance
 <br>
 
-O nosso banco é configurado em dois níveis de usuário: Administrador, funcionário e usuário.
+O nosso banco é configurado em níveis de usuário: Administrador, funcionário e usuário.
 Adminitrador possui acesso à todas funções do sistema, como: gerar relatórios, controle de estacionamentos, controle de funcionários e controle de vagas.
 
 Funcionario possui apenas o controle de vagas

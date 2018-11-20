@@ -269,6 +269,10 @@ O usuário, ou motorista pode realizar controle de seus veículos, reservar vaga
 As informações de localização de estacionamento serão coordenadas providenciadas pelo aplicativo google maps, e as informações da empresa serão inseridas pelo administrador e armazenadas no banco de dados.
 As informações dos motoristas serão cadastradas por eles através de um site e guardadas no banco de dados.
 
+Para a manutenção do banco de dados, é visada a verificação esporádica dos dados por meio de views, funções e selects, de forma a verificar se as tabelas estão funcionamento corretamente e inter relacionadas.
+
+A otimização do banco será feita partir da criação de indexes, nos atributos principais como também nas chaves, para diminuir o tempo de busca no banco. Bem como buscar meios de diminuir o tempo de backup e restauração.
+
 #### 9.6	GERACAO DE DADOS (MÍNIMO DE 1,5 MILHÃO DE REGISTROS PARA PRINCIPAL RELAÇAO)<br>
         a) principal tabela do sistema deve ter no mínimo 1,5 milhão de registros
         b) tabelas diretamente relacionadas a tabela principal 100 mil registros

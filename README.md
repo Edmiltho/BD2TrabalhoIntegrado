@@ -278,9 +278,9 @@ O usuário, ou motorista pode realizar controle de seus veículos, reservar vaga
 As informações de localização de estacionamento serão coordenadas providenciadas pelo aplicativo google maps, e as informações da empresa serão inseridas pelo administrador e armazenadas no banco de dados.
 As informações dos motoristas serão cadastradas por eles através de um site e guardadas no banco de dados.
 
-Para a manutenção do banco de dados, é visada a verificação esporádica dos dados por meio de views, funções e selects, de forma a verificar se as tabelas estão funcionamento corretamente e inter relacionadas.
+Para a manutenção do banco de dados, é visada a verificação esporádica dos dados por meio das views como as da seção 9.3(Pessoa Jurídica, Pessoa Física, Estacionamento,Estacionamento Valor e Pagamento) funções como as da seção 9.4 (ID_Funcionario, procuraCarro) e selects, de forma a verificar se as tabelas estão funcionamento corretamente e inter relacionadas.
 
-A otimização do banco será feita partir da criação de indexes, nos atributos principais como também nas chaves, para diminuir o tempo de busca no banco. Bem como buscar meios de diminuir o tempo de backup e restauração.
+A otimização do banco será feita partir da criação de indexes, nos atributos principais como também nas chaves, para diminuir o tempo de busca no banco (Seção 9.8). Bem como buscar meios de diminuir o tempo de backup e restauração (Seção 9.7).
 
 #### 9.6	GERACAO DE DADOS (MÍNIMO DE 1,5 MILHÃO DE REGISTROS PARA PRINCIPAL RELAÇAO)<br>
         a) principal tabela do sistema deve ter no mínimo 1,5 milhão de registros

@@ -253,7 +253,13 @@ Tem como objetivo apresentar as informações de todos os veículos pertencidos 
 
 ![Tabela](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Fun%C3%A7%C3%B5es%209.4/selectprocuraCarro.PNG)<br>
 
-<br>
+**Function pagamentoMot**<br>
+Função que retorna todo os pagamentos de um motorista, pesquisado pelo seu CNH.
+![Function pagamentoMot](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Fun%C3%A7%C3%B5es%209.4/FunctionPagamento.PNG)<br>
+
+![Select Function pagamentoMot](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Fun%C3%A7%C3%B5es%209.4/SelectPagamentoCNH.PNG)<br>
+
+![Retorno Function pagamentoMot](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Fun%C3%A7%C3%B5es%209.4/pagamentoMotTabela.PNG)<br><br>
 
 ## Data de Entrega: (27/09/2018)
 

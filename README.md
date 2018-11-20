@@ -264,6 +264,11 @@ Funcionario possui apenas o controle de vagas
 
 O usuário, ou motorista pode realizar controle de seus veículos, reservar vagas, efetuar pagamento e controle de motoristas em sua conta.
 
+![Casos de Uso](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/9.5%20administra%C3%A7%C3%A3o/Diagrama_CasosDeUso.png)
+
+As informações de localização de estacionamento serão coordenadas providenciadas pelo aplicativo google maps, e as informações da empresa serão inseridas pelo administrador e armazenadas no banco de dados.
+As informações dos motoristas serão cadastradas por eles através de um site e guardadas no banco de dados.
+
 #### 9.6	GERACAO DE DADOS (MÍNIMO DE 1,5 MILHÃO DE REGISTROS PARA PRINCIPAL RELAÇAO)<br>
         a) principal tabela do sistema deve ter no mínimo 1,5 milhão de registros
         b) tabelas diretamente relacionadas a tabela principal 100 mil registros

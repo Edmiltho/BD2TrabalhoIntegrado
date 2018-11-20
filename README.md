@@ -257,6 +257,13 @@ Tem como objetivo apresentar as informações de todos os veículos pertencidos 
         d) Plano com frequencia de análises visando otimização de performance
 <br>
 
+O nosso banco é configurado em dois níveis de usuário: Administrador, funcionário e usuário.
+Adminitrador possui acesso à todas funções do sistema, como: gerar relatórios, controle de estacionamentos, controle de funcionários e controle de vagas.
+
+Funcionario possui apenas o controle de vagas
+
+O usuário, ou motorista pode realizar controle de seus veículos, reservar vagas, efetuar pagamento e controle de motoristas em sua conta.
+
 #### 9.6	GERACAO DE DADOS (MÍNIMO DE 1,5 MILHÃO DE REGISTROS PARA PRINCIPAL RELAÇAO)<br>
         a) principal tabela do sistema deve ter no mínimo 1,5 milhão de registros
         b) tabelas diretamente relacionadas a tabela principal 100 mil registros

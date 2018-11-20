@@ -255,7 +255,7 @@ Tem como objetivo apresentar as informações de todos os veículos pertencidos 
 
 **Function pagamentoMot**<br>
 Função que retorna todo os pagamentos de um motorista, pesquisado pelo seu CNH.
-![Function pagamentoMot](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Fun%C3%A7%C3%B5es%209.4/FunctionPagamento.PNG)<br>
+![Function pagamentoMot](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Fun%C3%A7%C3%B5es%209.4/FunctionPagamentoMot.PNG)<br>
 
 ![Select Function pagamentoMot](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Fun%C3%A7%C3%B5es%209.4/SelectPagamentoCNH.PNG)<br>
 

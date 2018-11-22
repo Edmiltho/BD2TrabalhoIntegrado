@@ -209,25 +209,75 @@ OBS: Incluir para os tópicos 9.2 e 9.3 as instruções SQL + imagens (print da 
         presentes aqui. 
 
 **View Pessoa Juridica**<br>
+
+```sql
+create or replace view pessoa_juridica_info as 
+select jur.id, jur.cnpj, pes.nome from pessoa_juridica as jur
+inner join pessoa as pes on jur.fk_pessoa_id = pes.id;
+```
 Essa view tem o objetivo de juntar as informações de pessoa com pessoa juridica<br>
+
 ![View Pessoa Juridica](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/view_pessoa_juridica.PNG)<br>
 
 **View Pessoa Fisica**<br>
+
+```sql
+create or replace view pessoa_fisica_info as 
+select fis.id, fis.cpf, pes.nome from pessoa_fisica as fis
+inner join pessoa as pes on fis.fk_pessoa_id = pes.id;
+```
+
 Essa view tem o objetivo de juntar as informações de pessoa com pessoa física<br>
 ![View Pessoa Fisica](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/view_pessoa_fisica.PNG)<br>
 
 
 **View Estacionamento**<br>
+
+```sql
+create or replace view estacionamento_info as
+select e.id, e.nome, e.latitude, e.longitude, e.valorhora, en.rua, b.bairro, cid.cidade, pes.cnpj, pes.nome as nome_pes from estacionamento as e
+inner join endereco as en on e.id = en.id
+inner join bairro as b on en.fk_bairro_id = b.id
+inner join cidade as cid on b.fk_cidade_id = cid.id
+inner join estado as est on cid.fk_estado_id = est.id
+inner join pessoa_juridica_info as pes on e.fk_pessoa_juridica_id = pes.id
+where pes.cnpj = 'pzpnd-cnpj';
+```
+
 Essa view tem o objetivo de procurar um cliente pelo cnpj e mostrar todas as informações relacionadas ao estacionamento que são importantes<br>
 ![View estacionamento](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/view_estacionamento.png)<br>
 
 
 **View Estacionamento Valor**<br>
+
+```sql
+create or replace view estacionamento_v_info as
+select e.id, e.nome, e.latitude, e.longitude, e.valorhora, en.rua, b.bairro, cid.cidade, pes.cnpj, pes.nome as nome_pes from estacionamento as e
+inner join endereco as en on e.id = en.id
+inner join bairro as b on en.fk_bairro_id = b.id
+inner join cidade as cid on b.fk_cidade_id = cid.id
+inner join estado as est on cid.fk_estado_id = est.id
+inner join pessoa_juridica_info as pes on e.fk_pessoa_juridica_id = pes.id
+where pes.cnpj = 'pzpnd-cnpj' and
+e.valorhora > 20;
+```
+
 Essa view tem o objetivo de procurar um cliente pelo cnpj e mostrar todas as informações relacionadas ao estacionamento que possuem um valor hora maior do que e que são importantes para o cliente<br>
 ![View estacionamento_valor](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/view_estacionamento_v.png)<br>
 
 
 **View Pagamento**<br>
+
+```sql
+create or replace view pagamento_info as 
+select pag.data, pag.valor, res.horaReserva, res.dataReserva, res.horaSaida, res.saidaPrevista, veic.placa, mot.cnh from
+pagamento_estacionamento as pag inner join reserva as res on res.fk_pagamento_estacionamento_id = pag.id
+inner join veiculo as veic on res.fk_veiculo_id = veic.id
+inner join motorista as mot on veic.fk_motorista_id = mot.id
+where pag.data > '1980-01-01' and
+pag.data < '2000-01-01';
+```
+
 Essa view tem o objetivo de mostrar as informações relacionadas as reservas e pagamentos de uma vaga entre duas datas<br>
 ![View Pagamento](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/view_pagamento.png)<br>
 #### 9.4	LISTA DE CODIGOS DAS FUNÇÕES, ASSERÇOES E TRIGGERS<br>

@@ -215,7 +215,8 @@ create or replace view pessoa_juridica_info as
 select jur.id, jur.cnpj, pes.nome from pessoa_juridica as jur
 inner join pessoa as pes on jur.fk_pessoa_id = pes.id;
 ```
-Essa view tem o objetivo de juntar as informações de pessoa com pessoa juridica<br>
+Essa view tem o objetivo de juntar as informações de pessoa com pessoa juridica, para auxiliar nas pesquisas que relacionam pessoa com pessoa jurídica.<br>
+Essa view será liberada para os grupos de usuário de funcionários e administrador.<br>
 
 ![View Pessoa Juridica](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/view_pessoa_juridica.PNG)<br>
 
@@ -227,7 +228,9 @@ select fis.id, fis.cpf, pes.nome from pessoa_fisica as fis
 inner join pessoa as pes on fis.fk_pessoa_id = pes.id;
 ```
 
-Essa view tem o objetivo de juntar as informações de pessoa com pessoa física<br>
+Essa view tem o objetivo de juntar as informações de pessoa com pessoa física, para auxiliar nas pesquisas que relacionam pessoa com pessoa física.<br>
+Essa view será liberada para os grupos de usuário de funcionários e administrador.<br>
+
 ![View Pessoa Fisica](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/view_pessoa_fisica.PNG)<br>
 
 
@@ -244,7 +247,9 @@ inner join pessoa_juridica_info as pes on e.fk_pessoa_juridica_id = pes.id
 where pes.cnpj = 'pzpnd-cnpj';
 ```
 
-Essa view tem o objetivo de procurar um cliente pelo cnpj e mostrar todas as informações relacionadas ao estacionamento que são importantes<br>
+Essa view tem o objetivo de mostrar as informações de estacionamentos junto às informações do proprietário (mostrando cnpj e nome), a partir de um determinado cnpj.<br>
+A view será liberada para funcionários e administrador.<br>
+
 ![View estacionamento](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/view_estacionamento.png)<br>
 
 
@@ -262,7 +267,8 @@ where pes.cnpj = 'pzpnd-cnpj' and
 e.valorhora > 20;
 ```
 
-Essa view tem o objetivo de procurar um cliente pelo cnpj e mostrar todas as informações relacionadas ao estacionamento que possuem um valor hora maior do que e que são importantes para o cliente<br>
+Semelhante à view anterior, usa um cnpj para buscar informações sobre os estacionamentos junto às do proprietário, porém com a restrição de um valor-hora, determinado por quem utiliza a view.<br>
+Essa view será liberada para funcionários e administrador.<br>
 ![View estacionamento_valor](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/view_estacionamento_v.png)<br>
 
 
@@ -278,7 +284,9 @@ where pag.data > '1980-01-01' and
 pag.data < '2000-01-01';
 ```
 
-Essa view tem o objetivo de mostrar as informações relacionadas as reservas e pagamentos de uma vaga entre duas datas<br>
+A partir de um intervalo determinado de datas, essa view mostra as informações relacionadas às reservas e pagamentos feitas no período de tempo pedido.<br>
+Essa view será liberada para funcionários e administrador.<br>
+
 ![View Pagamento](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/view_pagamento.png)<br>
 #### 9.4	LISTA DE CODIGOS DAS FUNÇÕES, ASSERÇOES E TRIGGERS<br>
         Detalhamento sobre funcionalidade de cada código.

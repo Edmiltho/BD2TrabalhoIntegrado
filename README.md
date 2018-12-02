@@ -472,19 +472,25 @@ Estacionamento_v_info | BTree | Pessoa_juridica(cnpj) | +5% | -13% | -53% | -9%
 
 <br> Como podemos notar, dois indices fizeram boas melhoras, Pagamento_estacionamento(data) na view Pagamento_info e  Pessoa_juridica(cnpj) na view Estacionamento_v_info, outras, como o indice em valorhora junto com o indice de cnpj e o indice, em hash, Pessoa_juridica(cnpj) na view estacionamento_info, pioraram o desempenho. Então podemos concluir que na view pagamento_info, vale a pena colocar indice na data, na view estacionamento_info, não vale a pena colocar indice hash para buscar cnpj e na view Estacionamento_v_info, vale a pena colocar indice apenas em na busca de cnpj<br> 
 
-<br> Abaixo estão algumas imagens tiradas do analyze gráfico do pgadmin<br>
+<br> Abaixo estão algumas imagens tiradas do explain analyze do depesz<br>
 <br>View pagamento_info sem indice<br>
-![pagamento_info_nI](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/9.8%20Index/Pagamento_info_nI.png)<br>
+![pagamento_info_nI](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Explain%20Analyze%20Views/pagamento_info%20sem%20index.PNG)<br>
 <br>View pagamento_info com indice<br>
-![pagamento_info_I](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/9.8%20Index/Pagamento_info_I.png)<br>
+![pagamento_info_I](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Explain%20Analyze%20Views/pagamento_info%20com%20idx_data.PNG)<br>
 <br>View estacionamento_info sem indice<br>
-![estacionamento_info_nI](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/9.8%20Index/estacionamento_info_nI.png)<br>
+![estacionamento_info_nI](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Explain%20Analyze%20Views/estacionamento_info%20sem%20index.PNG)<br>
 <br>View estacionamento_info com indice<br>
-![estacionamento_info_I](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/9.8%20Index/estacionamento_info_i.png)<br>
+![estacionamento_info_I](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Explain%20Analyze%20Views/estacionamento_info%20com%20idx_cnpj.PNG)<br>
+<br>View estacionamento_info com indice (Hash)<br>
+![estacionamento_info_II](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Explain%20Analyze%20Views/estacionamento_info%20com%20idx_cnpj%20hash.PNG)<br>
 <br>View estacionamento_v_info sem indice<br>
-![estacionamento_v_info_nI](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/9.8%20Index/estacionamento_v_info_nI.png)<br>
-<br>View pagamento_v_info com indice<br>
-![estacionamento_v_info_I](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/9.8%20Index/estacionamento_v_info_i.png)<br>
+![estacionamento_v_info_nI](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Explain%20Analyze%20Views/estacionamento_v_info%20sem%20index.PNG)<br>
+<br>View estacionamento_v_info com indice cnpj<br>
+![estacionamento_v_info_I](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Explain%20Analyze%20Views/estacionamento_v_info%20com%20idx_cnpj.PNG)<br>
+<br>View estacionamento_v_info com indice valorhora<br>
+![estacionamento_v_info_II](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Explain%20Analyze%20Views/estacionamento_v_info%20com%20idx_valorhora.PNG)<br>
+<br>View estacionamento_v_info com indice cnpj e valorhora<br>
+![estacionamento_v_info_III](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Explain%20Analyze%20Views/estacionamento_v_info%20com%20idx_cnpj%20e%20idx_valorhora.PNG)<br>
 
 ## Data de Entrega: (22/11/2018)
 

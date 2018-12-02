@@ -37,3 +37,16 @@ inner join veiculo as veic on res.fk_veiculo_id = veic.id
 inner join motorista as mot on veic.fk_motorista_id = mot.id
 where pag.data > '1980-01-01' and
 pag.data < '2000-01-01';
+
+
+-- Funcionario Info
+create view funcionario_info as 
+select p.nome, f.matricula, c.nome as cargo, pj.nome as empresa_nome, pj.cnpj as empresa_cnpj
+from pessoa_fisica_info as p inner join funcionario as f
+on f.fk_pessoa_fisica_id = p.id 
+inner join cargo as c
+on f.fk_cargo_id = c.id 
+inner join pessoa_juridica_info as pj
+on f.fk_pessoa_juridica_id = pj.id;
+
+

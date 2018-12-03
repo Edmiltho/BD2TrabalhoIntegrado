@@ -283,7 +283,6 @@ inner join motorista as mot on veic.fk_motorista_id = mot.id
 where pag.data > '1980-01-01' and
 pag.data < '2000-01-01';
 ```
-
 A partir de um intervalo determinado de datas, essa view mostra as informações relacionadas às reservas e pagamentos feitas no período de tempo pedido.<br>
 Essa view será liberada para funcionários e administrador.<br>
 ![View Pagamento](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/view_pagamento.png)<br>
@@ -302,6 +301,16 @@ on f.fk_pessoa_juridica_id = pj.id;
 ```
 ![View Funcionario](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/Funcionario_info.PNG)<br>
 
+**View Cartao_Info**
+```
+create or replace view cartao_info as
+select p.nome as dono, p.cpf,  c.numero, c.csv, c.validade from cartao as c
+inner join motorista as m on m.id = c.fk_motorista_id
+inner join pessoa_fisica_info as p on m.fk_pessoa_fisica_id = p.id
+where p.nome = 'cxxks-nome' and validade >= '1990-09-03';
+
+```
+![View Cartao Info](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/view_cartao_info.PNG)
 
 
 #### 9.4	LISTA DE CODIGOS DAS FUNÇÕES, ASSERÇOES E TRIGGERS<br>

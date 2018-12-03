@@ -287,6 +287,20 @@ pag.data < '2000-01-01';
 A partir de um intervalo determinado de datas, essa view mostra as informações relacionadas às reservas e pagamentos feitas no período de tempo pedido.<br>
 Essa view será liberada para funcionários e administrador.<br>
 
+**View Funcionario** <br>
+
+```sql
+create view funcionario_info as 
+select p.nome, f.matricula, c.nome as cargo, pj.nome as empresa_nome, pj.cnpj as empresa_cnpj
+from pessoa_fisica_info as p inner join funcionario as f
+on f.fk_pessoa_fisica_id = p.id 
+inner join cargo as c
+on f.fk_cargo_id = c.id 
+inner join pessoa_juridica_info as pj
+on f.fk_pessoa_juridica_id = pj.id;
+```
+
+
 ![View Pagamento](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/view_pagamento.png)<br>
 #### 9.4	LISTA DE CODIGOS DAS FUNÇÕES, ASSERÇOES E TRIGGERS<br>
         Detalhamento sobre funcionalidade de cada código.

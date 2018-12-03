@@ -529,7 +529,7 @@ Estacionamento_v_info | BTree | Pessoa_juridica(cnpj) | +5% | -13% | -53% | -9%
 ![cartao info I](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/9.8%20Index/cartao_info%20Sem%20Indice.PNG)
 
 <br> View Cartao_Info com Indice em Pessoa.nome e cartao.validade <br>
-![cartao info II](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/9.8%20Index/cartao_info%20Sem%20Indice.PNG)
+![cartao info II](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/9.8%20Index/cartao_info%20com%20Indice.PNG)
 
 
 

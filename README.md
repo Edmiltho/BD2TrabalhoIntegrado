@@ -511,6 +511,13 @@ Estacionamento_v_info | BTree | Pessoa_juridica(cnpj) | +5% | -13% | -53% | -9%
 <br> View Funcionario_Info sem indice<br>
 ![funcionario info_I](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Explain%20Analyze%20Views/Funcionario%20Info%20sem%20Index.PNG)<br>
 
+<br> View Funcionario_Info com indice em pessoaFisica.nome e PessoaJuridica.nome<br>
+![funcionario info_II](<br> View Funcionario_Info sem indice<br>
+![funcionario info_I](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Explain%20Analyze%20Views/Funcionario%20Info%20sem%20Index.PNG)<br>
+)<br>
+
+
+
 
 
 

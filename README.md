@@ -508,6 +508,12 @@ Estacionamento_v_info | BTree | Pessoa_juridica(cnpj) | +5% | -13% | -53% | -9%
 <br>View estacionamento_v_info com indice cnpj e valorhora<br>
 ![estacionamento_v_info_III](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Explain%20Analyze%20Views/estacionamento_v_info%20com%20idx_cnpj%20e%20idx_valorhora.PNG)<br>
 
+<br> View Funcionario_Info sem indice<br>
+![funcionario info_I](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Explain%20Analyze%20Views/Funcionario%20Info%20sem%20Index.PNG)<br>
+
+
+
+
 ## Data de Entrega: (22/11/2018)
 
 <br>   

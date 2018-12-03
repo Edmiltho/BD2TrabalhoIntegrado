@@ -49,4 +49,12 @@ on f.fk_cargo_id = c.id
 inner join pessoa_juridica_info as pj
 on f.fk_pessoa_juridica_id = pj.id;
 
+-- Cartao Info
+create view cartao_info as
+select p.nome as dono, p.cpf,  c.numero, c.csv, c.validade from cartao as c
+inner join motorista as m on m.id = c.fk_motorista_id
+inner join pessoa_fisica_info as p on m.fk_pessoa_fisica_id = p.id
+where p.nome = 'cxxks-nome' and validade >= '1990-09-03';
+
+
 

@@ -462,6 +462,7 @@ View | Planning time | Execution Time | Cost mim | Cost Max
 Pagamento_info | 0.358 ms | 7434.077 ms | 31352.01 | 101551.15
 Estacionamento_info | 0.947 ms | 5.157 ms | 1.35 | 104.13
 Estacionamento_v_info | 0.762 ms | 2.109 ms | 20.86 | 124.59
+Funcionario_info |  |120.875 ms||
 
 <br> Aplicando os indices nas mesmas views e analisando os dados obtemos <br>
 
@@ -473,6 +474,7 @@ Estacionamento_info | 0.989 ms | 5.742 ms | 1.35 | 104.02 | Pessoa_juridica(cnpj
 Estacionamento_v_info | 0.808 ms | 1.885 ms | 9.65 | 113.38 | Pessoa_juridica(cnpj) e estacionamento(valorhora) | BTree (os dois)
 Estacionamento_v_info | 0.883 ms | 2.263 ms | 20.86 | 124.59 | estacionamento(valorhora) | BTree
 Estacionamento_v_info | 0.805 ms | 1.816 ms | 9.65 | 113.38 | Pessoa_juridica(cnpj) | BTree
+Funcionario_info||2.082 ms|||Pessoa(nome)| BTree
 
 <br> Comparando os valores das views com e sem indice <br>
 

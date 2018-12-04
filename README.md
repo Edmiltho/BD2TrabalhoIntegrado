@@ -138,7 +138,6 @@ OBS: Os mockup's podem estar desatualizados devido a mudanças que ocorreram dur
     numero: Campo que armazena o numero do cartão do cliente.
     endereco: Tabela com dados do endereço em relação ao estacionamento.
 
-
 ### 6	MODELO LÓGICO<br>
 [Modelo Lógico - BrModelo](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/Modelos_%20Conceitual%20-%20L%C3%B3gico%20-%20F%C3%ADsico%20-%20Inserts/Alteracao%2011-10/modConceitual_4V2.brM3)
 
@@ -454,6 +453,8 @@ Inicio<br>
 ![Inicio](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Popular%209.6/StartTimePopula.PNG)<br>
 Fim<br>
 ![fim](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Popular%209.6/EndTimePopula.PNG)<br>
+
+[Relatório Jupyter](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/Jupyter_relatorio_flanela.ipynb)
 ## Data de Entrega: (31/10/2018)
 
 #### 9.7	Backup do Banco de Dados<br>

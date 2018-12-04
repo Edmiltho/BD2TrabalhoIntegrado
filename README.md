@@ -302,7 +302,7 @@ on f.fk_pessoa_juridica_id = pj.id;
 ![View Funcionario](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/Funcionario_info.PNG)<br>
 
 **View Cartao_Info**
-```
+```sql
 create or replace view cartao_info as
 select p.nome as dono, p.cpf,  c.numero, c.csv, c.validade from cartao as c
 inner join motorista as m on m.id = c.fk_motorista_id
@@ -348,7 +348,7 @@ Função que retorna todo os pagamentos de um motorista, pesquisado pelo seu CNH
 **Função OverReserva e Trigger checkTempoReserva**
 Verifica o tempo de saida do motorista e cobra multa de acordo com o horário de saída, sendo ela de 10% a mais o valor.
 
-```
+```sql
 CREATE FUNCTION OverReserva() 
 RETURNS TRIGGER AS '
 BEGIN
@@ -371,7 +371,7 @@ END'
 LANGUAGE plpgsql;
 ```
 
-```
+```sql
 CREATE TRIGGER checkTempoReserva
 BEFORE INSERT OR UPDATE ON pagamento_estacionamento
 FOR EACH ROW

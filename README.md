@@ -287,7 +287,7 @@ Essa view será liberada para funcionários e administrador.<br>
 ![View Pagamento](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/view_pagamento.png)<br>
 
 **View Funcionario** <br>
-
+Essa view demonstra, à partir do id, as informações de um funcionário: carog, nome, matricula, nome da empresa e o cpnj dela.
 ```sql
 create view funcionario_info as 
 select p.nome, f.matricula, c.nome as cargo, pj.nome as empresa_nome, pj.cnpj as empresa_cnpj
@@ -301,6 +301,7 @@ on f.fk_pessoa_juridica_id = pj.id;
 ![View Funcionario](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Views%209.3/Funcionario_info.PNG)<br>
 
 **View Cartao_Info**
+Essa view demonstra as informações importantes do cartão de pagamento de um usuário. Como o seu nome, cpf, numero de cartao, csv e validade.
 ```sql
 create or replace view cartao_info as
 select p.nome as dono, p.cpf,  c.numero, c.csv, c.validade from cartao as c

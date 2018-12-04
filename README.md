@@ -369,7 +369,9 @@ BEGIN
 	RETURN NULL;
 END'
 LANGUAGE plpgsql;
+```
 
+```
 CREATE TRIGGER checkTempoReserva
 BEFORE INSERT OR UPDATE ON pagamento_estacionamento
 FOR EACH ROW

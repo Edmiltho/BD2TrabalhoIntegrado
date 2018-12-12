@@ -455,7 +455,6 @@ Inicio<br>
 Fim<br>
 ![fim](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/Popular%209.6/EndTimePopula.PNG)<br>
 
-[Relatório Jupyter](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/Jupyter_relatorio_flanela.ipynb)
 ## Data de Entrega: (31/10/2018)
 
 #### 9.7	Backup do Banco de Dados<br>
@@ -490,6 +489,7 @@ Restauração<br>
 Tamanho<br>
 ![tamanho](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/9.7%20backup/tamanhoBackupTAR.PNG)<br>
 
+[Relatório Jupyter](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/Jupyter_relatorio_flanela.ipynb)
 
 #### 9.8	APLICAÇAO DE ÍNDICES E TESTES DE PERFORMANCE<br>
     a) Lista de índices, tipos de índices com explicação de porque foram implementados nas consultas 

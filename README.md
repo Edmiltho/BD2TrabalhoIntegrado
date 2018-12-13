@@ -489,10 +489,6 @@ Restauração<br>
 Tamanho<br>
 ![tamanho](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/9.7%20backup/tamanhoBackupTAR.PNG)<br>
 
----------------------------------------------
-[Relatório Jupyter](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/Jupyter_relatorio_flanela.ipynb)
----------------------------------------------
-
 #### 9.8	APLICAÇAO DE ÍNDICES E TESTES DE PERFORMANCE<br>
     a) Lista de índices, tipos de índices com explicação de porque foram implementados nas consultas 
     b) Performance esperada VS Resultados obtidos
@@ -570,9 +566,9 @@ Estacionamento_v_info | BTree | Pessoa_juridica(cnpj) | +5% | -13% | -53% | -9%
 <br> View Cartao_Info com Indice em Pessoa.nome e cartao.validade <br>
 ![cartao info II](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/SQL/9.8%20Index/cartao_info%20com%20Indice.PNG)
 
-
-
-
+---------------------------------------------
+[Relatório Jupyter](https://github.com/Edmiltho/FlanelinhaExpress/blob/master/Jupyter_relatorio_flanela.ipynb)
+---------------------------------------------
 
 ## Data de Entrega: (22/11/2018)
 

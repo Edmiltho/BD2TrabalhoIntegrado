@@ -93,7 +93,6 @@ OBS: Os mockup's podem estar desatualizados devido a mudanças que ocorreram dur
    - Relatório sobre a reserva da vaga;<br>
    - Relatório sobre determinado cliente;<br>
    - Histórico de reservas de determinado cliente;<br>
-   - Créditos restantes de um determinado cliente;<br>
    - Relatório da empresa responsável pela vaga;<br>
    - Relatório sobre o veículo de determinada reserva;<br>
    - Histórico de veículos estacionados em determinada vaga.
